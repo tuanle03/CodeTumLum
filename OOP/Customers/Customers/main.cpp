@@ -148,8 +148,14 @@ int main(){
     TuanLe;
     freopen(NAME".inp", "r", stdin);
     freopen(NAME".out", "w", stdout);
-    
+    //    clock_t start, end;
+    //    start = clock();
+    //    int t; cin >> t;
+    //    while (t--) {
     Solve();
+    //    }
+    //    end = clock();
+    //    cout << ((double) (end-start))/ CLOCKS_PER_SEC << endl;
 }
 
 
