@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paraphrasing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      #myBtn, #myBtn2 {
+        color: red; /* Đổi màu chữ thành màu đỏ */
+        cursor: pointer; /* Đặt kiểu con trỏ thành bàn tay khi hover */
+      }
+
+      .container{
+        position: relative;
+        text-align: center;
+      }
+
+      .container img{
+        display: inline-block;
+      }
+
+      img {
+        max-width: 30%;
+        height: auto;
+        display: inline-block; /* Sử dụng display: inline-block để đặt hình ảnh cùng 1 hàng */
+      }
+
+      .info-box {
+        position: absolute;
+        background-color: white;
+        border: 1px solid #000;
+        padding: 10px;
+        left: 23.5%;
+        width: 360px;
+        top: 70%;
+        margin-top: -10px; /* Điều này sẽ làm khối thông tin nằm lên hình ảnh */
+        display: inline-block; /* Đặt khối thông tin cùng 1 hàng với hình ảnh */
+        vertical-align: top; /* Để điều chỉnh căn chỉnh hình ảnh và khối thông tin cùng 1 đỉnh */
+        text-align: left;
+        border: 1px solid rgba(0, 0, 0, 0.2); /* Đặt màu viền với độ trong suốt */
+        border-top: none; /* Loại bỏ viền phía trên */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng phần dưới */
+      }
+
+      .info-box2 {
+        position: absolute;
+        background-color: white;
+        border: 1px solid #000;
+        padding: 10px;
+        right: 23.5%;
+        width: 360px;
+        top: 70%;
+        margin-top: -10px; /* Điều này sẽ làm khối thông tin nằm lên hình ảnh */
+        display: inline-block; /* Đặt khối thông tin cùng 1 hàng với hình ảnh */
+        vertical-align: top; /* Để điều chỉnh căn chỉnh hình ảnh và khối thông tin cùng 1 đỉnh */
+        text-align: left;
+        border: 1px solid rgba(0, 0, 0, 0.2); /* Đặt màu viền với độ trong suốt */
+        border-top: none; /* Loại bỏ viền phía trên */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng phần dưới */
+      }
+
+      img:first-child {
+        margin-right: 20px; /* Cách xa tấm hình đầu tiên bằng cách thêm khoảng cách bên phải */
+      }
+
+      .info-box:before, .info-box2:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20px; /* Điều chỉnh chiều cao của phần trên có viền mờ */
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Tạo viền mờ phía trên */
+      }
+
+      #more {display: none;}
+      #more2 {display: none;}
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="Hình ảnh">
+      <div class="info-box">
+        <h2>Paraphrasing</h2>
+        <p>Paraphrasing involves taking a passage — either spoken or written — and rewording it.
+        Writers often paraphrase sentences and paragraphs to deliver information in a more concise way, as you'll see in the examples below.
+        When paraphrasing, it is important to keep the original meaning so that the facts remain intact.
+        Basically, you are writing something in your own words that still expresses the original idea.
+        <span id="dots"> ...</span>
+        <span id="more">Paraphrasing is slightly different than summarizing.
+          When you summarize a passage, you focus on restating only the main idea in your own words.
+          Paraphrasing, on the other hand, aims to provide most of the information in a slightly condensed form.
+          Summaries are much shorter than the original passage, while paraphrasing can be shorter, longer or the same length.</span></p>
+        <a onclick="myFunction()" id="myBtn"> View more > </a>
+      </div>
+      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="Hình ảnh">
+      <div class="info-box2">
+        <h2>Paraphrasing</h2>
+        <p>Paraphrasing is common when writing an essay or research paper.
+        It allows you to explain important ideas in your own writing style and focus on the information that is most useful in making your point.
+        Even when you put someone else's ideas into your own words, you must cite the source of your information.
+        This gives credit to the original author for their ideas. Paraphrasing is slightly different than summarizing.
+        <span id="dots2"> ...</span>
+        <span id="more2">When you summarize a passage, you focus on restating only the main idea in your own words.
+          Paraphrasing, on the other hand, aims to provide most of the information in a slightly condensed form.
+          Summaries are much shorter than the original passage, while paraphrasing can be shorter, longer or the same length.</span></p>
+        <a onclick="myFunction2()" id="myBtn2"> View more > </a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "View more >";
+          moreText.style.display = "none";
+        }else {
+          dots.style.display = "none";
+          btnText.innerHTML = "View less >";
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "View more >";
+          moreText.style.display = "none";
+        }else {
+          dots.style.display = "none";
+          btnText.innerHTML = "View less >";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+  </body>
+</html>
