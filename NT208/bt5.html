@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bài tập 5</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      /* CSS cho khung form */
+      .registration-form {
+        border: 1px solid #000000;
+        padding: 60px;
+        max-width: 550px;
+        margin: 100px auto;
+        text-align: left;
+        position: relative;
+      }
+
+      /* CSS cho tiêu đề "Form Đăng Ký" */
+      .registration-form h2 {
+        background-color: #fff;
+        position: absolute;
+        top: -37px;
+        left: 19%;
+        transform: translateX(-50%);
+        display: inline-block;
+      }
+
+      /* Sử dụng CSS để định dạng label và input */
+      .registration-form label {
+        display: inline-block;
+        width: 30%;
+        text-align: left; /* Canh lề trái cho label */
+        margin-right: 10px;
+      }
+
+      .registration-form input[type="text"],
+      .registration-form input[name="email"],
+      .registration-form input[type="password"] {
+        padding: 10px;
+        margin: 15px 0;
+        display: inline-block; /* Hiển thị input cùng một hàng với label */
+        width: 60%; /* Độ rộng của input */
+      }
+
+      .registration-form .error {
+        color: red;
+      }
+
+      .registration-form .submit-button {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+      }
+
+      .registration-form input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .registration-form input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="registration-form">
+      <h2>Form Đăng Ký</h2>
+      <form id="myForm">
+        <div>
+          <label for="username">Tên đăng nhập</label>
+          <input type="text" id="username" name="username">
+          <span class="error" id="username-error"></span>
+        </div>
+        <div>
+          <label for="phone">Số điện thoại</label>
+          <input type="text" id="phone" name="phone">
+          <span class="error" id="phone-error"></span>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email">
+          <span class="error" id="email-error"></span>
+        </div>
+        <div>
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="password" name="password">
+          <span class="error" id="password-error"></span>
+        </div>
+        <div>
+          <label for="confirmPassword">Nhập lại mật khẩu</label>
+          <input type="password" id="confirmPassword" name="confirmPassword">
+          <span class="error" id="confirmPassword-error"></span>
+        </div>
+        <div>
+          <label> Thông tin thêm </label>
+          <input type="text">
+        </div>
+        <div class="submit-button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        $("#myForm").submit(function(e) {
+          e.preventDefault();
+          clearErrors(); // Xóa các thông báo lỗi trước khi kiểm tra
+
+          var username = $("#username").val();
+          var password = $("#password").val();
+          var confirmPassword = $("#confirmPassword").val();
+          var email = $("#email").val();
+          var phone = $("#phone").val();
+
+          // Kiểm tra điều kiện cho tên đăng nhập
+          if (username.length < 5) {
+            showError("username-error", "Tên đăng nhập phải có ít nhất 5 ký tự.");
+          }
+
+          // Kiểm tra điều kiện cho mật khẩu
+          if (password.length < 5) {
+            showError("password-error", "Mật khẩu phải có ít nhất 5 ký tự.");
+          }
+
+          // Kiểm tra điều kiện cho mật khẩu nhập lại
+          if (password !== confirmPassword) {
+            showError("confirmPassword-error", "Mật khẩu nhập lại không khớp.");
+          }
+
+          // Kiểm tra điều kiện cho email
+          var emailPattern = /^[a-zA-Z0-9._-]+@[a-zAZ0-9.-]+\.[a-zA-Z]{2,4}$/;
+          if (email.trim() === "" || !emailPattern.test(email)) {
+            showError("email-error", "Email không hợp lệ.");
+          }
+
+          // Kiểm tra điều kiện cho số điện thoại
+          var phonePattern = /^\d{10,11}$/;
+          if (!phonePattern.test(phone)) {
+            showError("phone-error", "Số điện thoại phải có 10 hoặc 11 chữ số.");
+          }
+        });
+
+        function showError(elementId, errorMessage) {
+          $("#" + elementId).text(errorMessage);
+        }
+
+        function clearErrors() {
+          $(".error").text("");
+        }
+      });
+    </script>
+  </body>
+</html>
