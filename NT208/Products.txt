@@ -1,0 +1,10 @@
+﻿1|Laptop HP Pavilion 14-ce3029TU (8WH94PA) (i5-1035G1)|12000000|HP|10|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-1.png
+2|Laptop LG Gram 14ZD980-G.AX52A5 (i5-8250U)|24500000|LG|45|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-2.jpg
+3|Laptop ASUS ExpertBook P5440FA-BM0557T (i7-8565U)|20800000|ASUS|12|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-3.jpg
+4|Laptop MSI GF65 Thin 10SER-622VN (i7-10750H)|33900000|MSI|0|Lorem ipsum dolor sit amet, consectetur adipiscing.|/Products/image-4.png
+5|Laptop HP Pavilion 14-ce3029TU (8WH94PA) (i5-1035G1)|12000000|HP|14|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-1.png
+6|Laptop LG Gram 14ZD980-G.AX52A5 (i5-8250U)|24500000|LG|1|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-2.jpg
+7|Laptop ASUS ExpertBook P5440FA-BM0557T (i7-8565U)|20800000|3|ASUS|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-3.jpg
+8|Laptop MSI GF65 Thin 10SER-622VN (i7-10750H)|33900000|MSI|20|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor|/Products/image-4.png
+9|Laptop HP Pavilion 14-ce3029TU (8WH94PA) (i5-1035G1)|12000000|5|HP|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-1.png
+10|Laptop LG Gram 14ZD980-G.AX52A5 (i5-8250U)|24500000|LG|7|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua|/Products/image-2.jpg
