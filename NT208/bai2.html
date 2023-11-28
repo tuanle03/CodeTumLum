@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="fullName">Họ và Tên:</label>
+              <input type="text" class="form-control" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Địa chỉ Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Số Điện Thoại:</label>
+              <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Thông điệp:</label>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3918.2324288146738!2d106.80161941411598!3d10.86991839225808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s !4v1588878290282!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $("#contactForm").validate({
+          submitHandler: function (form) {
+            // Gửi dữ liệu đến server bằng Ajax
+            var fullName = $("#fullName").val();
+            var email = $("#email").val();
+            var phone = $("#phone").val();
+            var message = $("#message").val();
+            var timestamp = new Date().toLocaleString();
+
+            var dataToSave = `${fullName} | ${email} | ${phone} | ${message} | ${timestamp}\n`;
+
+            $.post("saveData.php", { data: dataToSave }, function (response) {
+              alert(response); // Hiển thị thông báo từ server
+            });
+
+            alert("Đã gửi thành công!");
+            form.reset();
+            return false;
+          }
+        });
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Store</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        background-color: white;
+      }
+
+      th, td {
+        padding: 35px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+
+      img {
+        max-width: 100px;
+        max-height: 100px;
+        margin-right: 10px;
+      }
+
+      .product-info {
+        display: flex;
+        align-items: center;
+      }
+
+      .product-description {
+        flex: 1;
+      }
+
+      .product-name {
+        color: red;
+      }
+
+      .quantity-text {
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .quantity-number {
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .available {
+        color: green;
+      }
+
+      .out-of-stock {
+        color: red;
+      }
+
+      .a2c {
+        background-color: #4CAF50; /* Green background when liked */
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Computer Store</h1>
+    </header>
+
+    <table id="computerTable">
+      <tr>
+        <th>ID</th>
+        <th>Số lượng</th>
+        <th>Tên sản phẩm</th>
+        <th>Giá</th>
+        <th>Thương hiệu</th>
+        <th></th>
+      </tr>
+    </table>
+
+    <script>
+      // Hàm đọc dữ liệu từ file text
+      function readTextFile(file, callback) {
+        var rawFile = new XMLHttpRequest();
+        rawFile.overrideMimeType("application/json");
+        rawFile.open("GET", file, true);
+        rawFile.onreadystatechange = function () {
+          if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+          }
+        }
+        rawFile.send(null);
+      }
+
+      function isAnyProductOutOfStock(data) {
+        var lines = data.split('\n');
+        for (var i = 0; i < lines.length; i++) {
+          var cells = lines[i].split('|');
+          if (cells.length === 7 && parseInt(cells[4]) === 0) {
+            return true; // At least one product is out of stock
+          }
+        }
+        return false; // No product is out of stock
+      }
+
+      // Hàm hiển thị dữ liệu lên bảng
+      function displayData(data) {
+        var computerTable = document.getElementById("computerTable");
+        var anyProductOutOfStock = isAnyProductOutOfStock(data);
+        var lines = data.split('\n');
+
+        for (var i = 0; i < lines.length; i++) {
+          var cells = lines[i].split('|');
+          if (cells.length === 7) {
+            var row = computerTable.insertRow(-1);
+
+            // Thêm cột ID
+            var cellId = row.insertCell(-1);
+            cellId.innerHTML = cells[0];
+
+            // Thêm cột số lượng
+            var cellQuantity = row.insertCell(-1);
+            var quantity = parseInt(cells[4]); // Convert the quantity to an integer
+
+            if (quantity > 0) {
+              cellQuantity.innerHTML = "<div class='quantity-text available'>Còn hàng</div><div class='quantity-number'>" + quantity + "</div>";
+            } else {
+              cellQuantity.innerHTML = "<div class='quantity-text out-of-stock'>Hết hàng</div><div class='quantity-number'>0</div>";
+            }
+
+            // Tạo một div chứa hình ảnh và thông tin sản phẩm
+            var productInfoDiv = document.createElement("div");
+            productInfoDiv.className = "product-info";
+
+            // Tạo hình ảnh
+            var img = document.createElement("img");
+            img.src = cells[6].trim(); // Đường dẫn tới thư mục hình ảnh
+            productInfoDiv.appendChild(img);
+
+            // Tạo phần thông tin sản phẩm
+            var productDescriptionDiv = document.createElement("div");
+            productDescriptionDiv.className = "product-description";
+            productDescriptionDiv.innerHTML = "<strong class='product-name'>" + cells[1] + "</strong><br>" + cells[5];
+            productInfoDiv.appendChild(productDescriptionDiv);
+
+            // Thêm div chứa hình ảnh và thông tin vào ô cột "Tên Sản Phẩm"
+            var cellName = row.insertCell(-1);
+            cellName.appendChild(productInfoDiv);
+
+            // Thêm cột giá
+            var cellPrice = row.insertCell(-1);
+            var price = parseInt(cells[2]); // Convert the price to an integer
+
+            // Format the price as VND
+            var formattedPrice = price.toLocaleString('vi-VN').replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.") + ' VND';
+
+            cellPrice.innerHTML = formattedPrice;
+
+            // Thêm cột thương hiệu
+            var cellBrand = row.insertCell(-1);
+            cellBrand.innerHTML = cells[3];
+
+            // Thêm cột "Thêm vào giỏ hàng"
+            console.log(quantity);
+            var cella2c = row.insertCell(-1);
+            var a2cButton = document.createElement("button");
+
+            a2cButton.innerHTML = "Thêm vào giỏ hàng";
+            a2cButton.id = "a2cButton_" + cells[0]; // Unique identifier using product ID
+
+            a2cButton.onclick = function() {
+              var productId = this.id.split('_')[1];
+
+              // Check if the product is out of stock
+              this.classList.toggle('a2c'); // Toggle the button appearance
+            };
+
+            if (quantity === 0 || isNaN(quantity)) {
+              a2cButton.disabled = true;
+            }
+
+            cella2c.appendChild(a2cButton);
+          }
+        }
+      }
+
+      // Đọc dữ liệu từ file và hiển thị
+      readTextFile('Products.txt', function (data) {
+        displayData(data);
+      });
+    </script>
+  </body>
+</html>
