@@ -152,7 +152,7 @@ C. QUY TRÌNH THAO TÁC CHUẨN
               -> Nếu sản phẩm không bị lỗi (có thể do NPP thao tác sai hoặc đánh giá sai): Halio VN sẽ bao seal tay (KHÔNG THỂ NGUYÊN SEAL như sản phẩm mới) và gửi lại NPP bán tiếp.
 
 E. PHỤ LỤC
-  1.0 Thông tin địa chỉ nhận hàng
+  1.0 Thông tin địa chỉ nhận hàng đổi trả / bảo hành
     Kho: Hồ Chí Minh
     Địa chỉ kho: Tòa nhà Taiyo Nisshin, Số 100, Nguyễn Thị Tư , Phường Phú Hữu, TP Thủ Đức.
     Thời gian liên hệ: Từ 8:30 - 12:00; 13:30 - 16:00, Thứ hai đến Thứ bảy, không bao gồm ngày Lễ/ Tết.
