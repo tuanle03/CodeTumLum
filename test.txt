@@ -1,0 +1,173 @@
+HALIO WARRANTY PROCESS
+
+B. GIỚI THIỆU
+  Lixibox: Đơn vị bán sản phẩm Halio tại Việt Nam, cung cấp dịch vụ hỏi đáp về sản phẩm cho khách và không thực hiện bảo hành sản phẩm.
+  Halio Vietnam: Đại diện bởi Sachi sẽ chịu trách nhiệm bảo hành sản phẩm cho khách hàng trên toàn Việt Nam bao gồm:
+  Lixibox: Khách hàng mua sản phẩm tại Web, Mobile app, Cửa hàng và Lixibox Mall trên các sàn TMĐT gồm Shopee, Tiki, Lazada, Tiktok.
+  Nhà phân phối: Khách hàng mua sản phẩm tại các đơn vị cung cấp như Hasaki, Điện máy xanh,...
+
+C. QUY TRÌNH THAO TÁC CHUẨN
+  1.0 Mục đích
+    Thống nhất quy xử lý bảo hành hàng hoá thuộc thương hiệu Halio do các phát sinh liên quan đến lỗi kỹ thuật.
+    Nhằm giảm số lượng khiếu nại phát sinh từ khách hàng, qua đó nâng cao trải nghiệm dịch vụ, đồng thời tối ưu hoá quy trình nội bộ.
+
+  2.0 Phạm vi áp dụng
+    a. Phạm vi: Áp dụng cho tất cả bộ phận liên quan trong quá trình xử lý bảo hành.
+    b. Đối tượng áp dụng:
+      - Bộ phận có chức năng hỗ trợ vận hành: WH, Buyer, CS, Transportation, Sales, Finance.
+      - Bộ phận có chức năng hỗ trợ bao gồm cụ thể nhưng không giới hạn: Tech.
+
+  4.0 Giải thích khái niệm
+    a. Bảo hành hợp lệ
+      - Bảo hành 1 đổi 1 khi có lỗi về kỹ thuật do nhà sản xuất và không thể sửa được.
+      - Đã kích hoạt và đăng ký bảo hành thành công.
+      - Không bảo hành trong những trường hợp hư hỏng do tác động của ngoại lực (bể, vỡ, móp méo,...).
+      - Thời hạn bảo hành: Trong vòng 01 năm kể từ ngày khách hàng nhận sản phẩm.
+      - Các dòng sản phẩm Halio được áp dụng bảo hành:
+        Máy rửa mặt: HO, HS.
+        Máy đẩy tinh chất: HI, HC.
+        Bàn chải điện: HT, HSC.
+        Máy tăm nước: HF, HUC.
+        Máy tẩy trắng răng: HE.
+        Máy uốn tóc: HAC, HIC.
+        Máy sấy tóc: HHD.
+        Máy triệt lông: HR.
+        Máy triệt lông lạnh: HRC.
+        Máy uốn sóng: HIG.
+        Máy duỗi tóc: HIS.
+
+    b. Bảo hành không hợp lệ - Từ chối bảo hành
+      - Hao mòn tự nhiên, bao gồm các bộ phận tự hao mòn theo thời gian (ví dụ: pin, bộ lọc…).
+      - Lỗi chức năng hoặc hư hỏng do sử dụng sản phẩm không đúng theo hướng dẫn sử dụng của Halio.
+      - Lỗi chức năng hoặc hư hỏng do sửa chữa, thay đổi linh kiện bởi các bên khác không phải Halio hoặc không thuộc ủy quyền của Halio.
+      - Lỗi chức năng do vô tình làm rơi, va chạm làm máy, hoặc vận chuyển bất cẩn do KH.
+      - Lỗi chức năng hoặc hư hỏng do bất khả kháng hoặc thiên tai.
+      - Hư hại do các nguồn bên ngoài như nước, thời tiết, mất điện hoặc quá tải dòng điện.
+      - Hết hạn bảo hành.
+
+    c. Hỗ trợ sửa chữa
+      - Đối với các trường hợp hư hỏng như gãy đầu tăm (máy tăm nước), gãy trục nhựa (máy uốn tóc) sẽ không được hỗ trợ bảo hành. Tuy nhiên, Halio cung cấp dịch vụ hỗ trợ sửa chữa:
+        + Khách hàng gửi yêu cầu tại Phiếu yêu cầu bảo hành.
+        + Sau khi Halio kiểm tra và xác nhận, Khách hàng gửi máy về Halio để được xử lý.
+        + Phía sửa chữa: Không áp dụng.
+        + Khách hàng thanh toán phí cho 2 chiều vận chuyển.
+
+  5.0 Chính sách
+    5.1 Quy định chung
+      - Tất cả các kênh bán hàng của LXB sẽ không can thiệp vào quá trình bảo hành sản phẩm.
+      - Các thông tin, quá trình xử lý và quyết định bảo hành đều sẽ được phản hồi qua email với KH/NPP bởi Trung tâm bảo hành. Theo đó, các phòng ban liên quan không hỗ trợ trao đổi với KH/NPP thông qua bất kỳ nền tảng CSKH hiện hành nào khác.
+      - Chỉ tiếp nhận và xử lý bảo hành thông qua Phiếu yêu cầu bảo hành.
+      - Hàng hoá gửi về bảo hành cần đính kèm đầy đủ phụ kiện: Dây sạc, hộp giấy bên ngoài, vòng nhựa, túi nhung (đối với máy đẩy tinh chất), hộp đựng bàn chải, đế sạc (đối với bàn chải điện).
+
+    5.2 Quy trình xử lý hàng hoá bảo hành
+      5.2.1 Bước 1 - Kích hoạt và đăng ký bảo hành
+        a. Kích hoạt bảo hành:
+          1. Lưu trữ Code bảo hành in trên vỏ hộp.
+          2. Đăng ký bảo hành tại Link.
+          3. Sau khi đăng ký thành công, hệ thống sẽ gửi email xác nhận đã kích hoạt mã bảo hành.
+          4. Mã bảo hành sẽ được sử dụng trong suốt thời hạn bảo hành.
+
+        b. Đăng ký bảo hành
+          5. Điền đầy đủ thông tin vào Phiếu yêu cầu bảo hành.
+          6. Thông tin KH submit sẽ được lưu trữ tại Theo dõi bảo hành sản phẩm Halio.
+          7. Tiến hành kiểm tra thông tin KH submit và phân loại theo các trường hợp tương ứng:
+            a. Chờ bổ sung thông tin: Khi KH submit thiếu các trường thông tin yêu cầu.
+            b. Hướng dẫn KH kích hoạt bảo hành.
+            c. Từ chối bảo hành: Theo điều kiện tại Mục 4.b.
+            d. Thông báo KH gửi sản phẩm về Kho để kiểm tra.
+            e. Các trường hợp khác như gửi bù sản phẩm/bộ phận thay thế đến KH.
+          8. Tiến hành gửi thông tin đến KH qua email cskh.halio@sachi-vn.com theo nội dung cập nhật tại  Mục 5.2.1 - B.7, áp dụng template email theo định và theo dõi phản hồi từ phía KH.
+          Quy trình follow up sau khi gửi mail đến KH:
+            - Đóng case đối với các trường hợp (Set status Closed):
+            a. Trường hợp Từ chối bảo hành.
+            b. Trường hợp KH không phản hồi hoặc bổ sung thông tin theo yêu cầu (SLA: 7 ngày kể từ thời điểm gửi mail).
+            -  Đối với trường hợp Thông báo KH gửi sản phẩm về kho để kiểm tra: Yêu cầu 2 lần remind kể từ email thông báo đầu tiên:
+            + Lần 1: 7 ngày kể từ thời điểm gửi email đầu tiên => Set status Open.
+            + Lần 2: 14 ngày kể từ thời điểm gửi email đầu tiên => Set status Closed => Đóng case.
+
+        5.2.2 Bước 2 - Quyết định bảo hành
+          Quyết định bảo hành
+            9. Theo mục Mục 5.2.1 - B.7, sau khi KH gửi sản phẩm về kho, QA tiến hành kiểm tra tình trạng máy và cập nhật quyết định bảo hành:
+              a. Chấp nhận bảo hành đối với các trường hợp sản phẩm xác nhận lỗi kỹ thuật; hoặc
+              b. Từ chối bảo hành (theo điều kiện tại mục 4.b), lưu ý đính kèm lý do và video test máy; hoặc
+              c. Trường hợp sản phẩm chỉ cần thay thế phụ kiện hoặc sửa chữa (ví dụ lấy đầu tăm gãy), lưu ý đính kèm thông tin cụ thể và video test máy.
+            10. Tiến hành gửi email thông báo đến KH theo nội dung cập nhật tại Mục 5.2.2 - 9, áp dụng template email đã quy định.
+
+        5.2.3 Bước 3 - Gửi/trả sản phẩm về cho KH
+          Gửi/trả sản phẩm về cho KH
+            11. Sau khi hoàn tất quá trình bảo hành/kiểm tra máy, QA bàn giao sản phẩm cho WH để tiến hành gửi/trả sản phẩm về cho KH.
+            12. Gửi email thông báo đến KH về việc gửi/trả sản phẩm. Áp dụng template email đã quy định.
+            13. WH tạo shipment và bàn giao cho 3PL.
+                Lưu ý: Khi gửi máy mới về cho khách, WH cần phải xoá bỏ mã bảo hành trên sản phẩm mới.
+            14. 3PL cập nhật tình trạng gửi/trả kiện hàng.
+
+        5.2.4 Bước 4 - Phí vận chuyển/Phí bảo hành
+          Cập nhật phí vận chuyển
+            15. QA cập nhật Shipping fee, phân loại theo các trường hợp tương ứng:
+              a. Sachi - Đã trả 2 chiều: Khách gửi sản phẩm về và yêu cầu người nhận trả phí.
+              b. Khách - Đã trả 1 chiều: Khách đã trả phí khi gửi sản phẩm về.
+              c. Lỗi Khách - Phải trả 2 chiều: Khách gửi sản phẩm về, kho trả tiền.
+              d. Lỗi Khách - Phải trả 1 chiều nhận: Khách gửi sản phẩm về, khách trả tiền.
+
+          Bồi hoàn phí vận chuyển
+            16. Đối với trường hợp Khách - Đã trả 1 chiều, Sachi cần xử lý hoàn lại phí gửi hàng cho khách:
+              - Lọc các trường hợp được QA cập nhật Khách - Đã trả 1 chiều.
+              - Tiến hành gửi mail thông báo và nhờ KH cung cấp thông tin hoàn tiền, sau đó cập nhật lên hệ thống.
+              - QA tạo payment request trên hệ thống.
+            17. Kế Toán xử lý lệnh hoàn tiền thành công.
+
+          Kết thúc
+            Kết thúc yêu cầu bảo hành và đóng case.
+        Lưu ý:
+          A. Đối với các trường hợp KH/NPP gửi sản phẩm về nhưng không điền thông tin vào Phiếu yêu cầu bảo hành:
+            a. Trường hợp tài khoản của KH/NPP có thông tin Email trên hệ thống:
+              - QA: Cập nhật thông tin các case cần xử lý cho CS.
+              - CS: Tiến hành gửi mail và yêu cầu KH/NPP đăng ký Phiếu yêu cầu bảo hành.
+            b. Trường hợp tài khoản của KH không có thông tin email trên hệ thống (chỉ có số điện thoại đăng ký tài khoản):
+              - QA: Lưu vào file/sheet để tracking.
+              - CS: Sau 02 tuần kể từ thời điểm QA xác nhận sản phẩm về đến Kho, CS liên hệ KH bằng số điện thoại để thông báo KH về việc đăng ký Phiếu yêu cầu bảo hành.
+            c. Sau khi đã thông báo/nhắc nhở về việc bổ sung Phiếu yêu cầu bảo hành:
+              - KH/NPP điền Phiếu yêu cầu bảo hành thành công: Xử bảo hành theo quy trình.
+              - Không nhận được phản hồi/hỗ trợ từ KH/NPP: Pending hàng hóa tại kho cho đến khi có thông tin từ KH/NPP.
+
+          B. Kho đóng vai trò là nơi tiếp nhận hàng hoá gửi về. Trường hợp KH liên hệ trực tiếp để hỏi tình trạng bảo hành:
+            a. Chỉ xác nhận các thông tin liên quan đến việc đã nhận được hàng hoá trả về hay chưa.
+            b. Không giải đáp các thông tin liên quan đến tình trạng bảo hành. Script sử dụng: “Tất cả thông tin về quá trình bảo hành đều sẽ được Trung tâm Bảo hành Halio Việt Nam xử lý và phản hồi qua email. Trong trường hợp chưa đăng ký Phiếu yêu cầu bảo hành, anh/chị vui lòng thao tác để nhận email thông báo”.
+
+          C. Phí vận chuyển
+            a. Khách sỉ
+              - Đối với sản phẩm được xác nhận lỗi kỹ thuật, QA chấp nhận bảo hành: Sachi sẽ thanh toán phí vận chuyển cả 2 chiều, tối đa 50,000 VND/chiều.
+              - Đối với trường hợp NPP tự gửi về nhờ hỗ trợ kiểm tra, sửa chữa hoặc sản phẩm không phát sinh lỗi kỹ thuật: NPP sẽ thanh toán phí vận chuyển 2 chiều.
+            b. Khách lẻ
+              - Đối với trường hợp Sachi yêu cầu KH gửi máy về kiểm tra: Dù sản phẩm có hoặc không phát sinh lỗi, Sachi đều sẽ thanh toán phí vận chuyển cả 2 chiều, tối đa 50,000 VND/chiều.
+              - Đối với trường hợp Sachi đã từ chối bảo hành tuy nhiên KH nhờ hỗ trợ thêm các dịch vụ khác (ví dụ như lấy đầu tăm): KH sẽ thanh toán phí vận chuyển 2 chiều.
+
+          D. Khách hàng sỉ
+            - Trường hợp khách đã mua và rời khỏi cửa hàng của NPP sau đó liên hệ lại NPP để yêu cầu bảo hành: Khách hàng/NPP phải điền Phiếu yêu cầu bảo hành theo đúng quy trình.
+            - Halio VN chỉ xử lý bảo hành thông qua email đã điền trong Phiếu yêu cầu, theo đó, trường hợp khách không có email và NPP muốn đại diện khách, NPP cần điền đầy đủ thông tin email khi submit Phiếu yêu cầu.
+            - Trường hợp sản phẩm bị lỗi ngay tại cửa hàng (trong lúc test máy sau khi bán):
+              + NPP đổi máy mới cho khách và không cần kích hoạt lại mã bảo hành.
+              + NPP điền Phiếu yêu cầu bảo hành với nơi mua là Sachi và đơn hàng là hợp đồng với Sachi, đồng thời cung cấp hình ảnh/video, thời gian và địa điểm đã test máy.
+              -> Nếu QA xác nhận sản phẩm lỗi như thông tin NPP cung cấp: Halio VN đổi máy mới cho NPP như 1 trường hợp đổi trả bình thường.
+              -> Nếu sản phẩm không bị lỗi (có thể do NPP thao tác sai hoặc đánh giá sai): Halio VN sẽ bao seal tay (KHÔNG THỂ NGUYÊN SEAL như sản phẩm mới) và gửi lại NPP bán tiếp.
+
+E. PHỤ LỤC
+  1.0 Thông tin địa chỉ nhận hàng
+    Kho: Hồ Chí Minh
+    Địa chỉ kho: Tòa nhà Taiyo Nisshin, Số 100, Nguyễn Thị Tư , Phường Phú Hữu, TP Thủ Đức.
+    Thời gian liên hệ: Từ 8:30 - 12:00; 13:30 - 16:00, Thứ hai đến Thứ bảy, không bao gồm ngày Lễ/ Tết.
+    Thông tin bàn giao SĐT: 0909606003
+
+  4.0 Retention discount code
+    - Nhằm cải thiện tỷ lệ retention, Halio áp dụng chính sách tặng voucher đối với các trường hợp từ chối bảo hành để khuyến khích KH đặt lại sản phẩm mới tại các nền tảng web/app của Lixibox.
+    - Áp dụng: Các trường hợp từ chối bảo hành theo Mục 4.0b.
+    - Chi tiết như sau:
+      + Giá trị voucher: Giảm 30% trên giá gốc của sản phẩm tại web/app Lixibox. Lưu ý, không áp dụng đồng thời các chương trình khuyến mãi khác nếu có tại Lixibox.
+      + Sản phẩm áp dụng: Tất cả sản phẩm Halio đang chào bán tại web/app Lixibox.
+      + PIC tạo code: Buyer.
+      + Flow:
+        * CS Halio:
+          -> Sau khi xác nhận và KH đồng ý: Cập nhật yêu cầu gửi đến Buyer. Lưu ý, KH cần cung cấp email đặt hàng tại Lixibox.
+          -> Nếu KH nhờ hỗ trợ đặt hàng: CS Halio sẽ lấy thông tin và đặt hàng giúp khách bằng tài khoản Halio. Trong trường hợp này, KH sẽ không được hưởng các quyền lợi thành viên khi mua hàng tại web/app Lixibox như tích điểm, thăng hạng, sinh nhật,...
+          -> Buyer: Sau khi tạo mã thành công, Buyer phản hồi thông tin cho CS. SLA: Trong vòng 24h kể từ thời điểm CS gửi yêu cầu.
+          -> Voucher được theo dõi và lưu trữ tại: Link.
